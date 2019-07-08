@@ -4,9 +4,100 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <title>npm</title>
 </head>
 <body>
-  <!-- Your code goes here -->
+  <nav class="nav-bar">
+    <div class="top-left">
+      <a class="heart" href="#">♥︎</a>
+      <span class="acronym">Nacronym Pacronym Macronym</span>
+    </div>
+    <ul class="top-links nav-bar-ul">
+      <li><a href="#">npm Enterprise</a></li>
+      <li><a href="#">features</a></li>
+      <li><a href="#">pricing</a></li>
+      <li><a href="#">documentation</a></li>
+      <li><a href="#">support</a></li>
+    </ul>
+    <div class="clearfix"></div>
+  </nav>
+  <header class="header">
+    <div class="container city-bg-1">
+      <div class="header-search">
+        <img src="images/npm-logo.png" class="logo" alt="npm logo">
+        <form id="search-login" class="search-login">
+          <input type="search" size="100" class="pkg-search" placeholder="find packages"/>
+          <label for="login">sign up or log in</label><input type="button" id="login" class="login-button">
+        </form>
+      </div>
+      <div class="header-desc">
+        <h1>Build amazing things</h1>
+        <p>npm is the package manager for JavaScript and the world's largest software registry. Discover packages of reusable code &mdash; and assemble them in powerful new ways.</p>
+        <form id="signup-npm">
+          <button>Sign up for npm</button>
+        </form>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </header>
+  <section class="dark-bg">
+    <div class="container npm-orgs">
+      <div class="orgs-img">
+        <img src="images/collaboration.svg" alt="" class="img">
+      </div>
+      <div class="orgs-desc">
+        <h2>npm Orgs is powerful collaboration&nbsp;&mdash;&nbsp;for free</h2>
+        <ul class="orgs-ul">
+          <li>Encourage code discovery and re-use within teams</li>
+          <li>Publish and control access to your own namespace</li>
+          <li>Manage public and private code with the same workflow</li>
+        </ul>
+        <form id="signup-orgs">
+          <button>Sign up for Orgs</button>
+        </form>
+        <p class="learn-more">or, <a href="#">Learn more about Orgs</a></p>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+  <section class="city-bg-2">
+    <div class="container">
+      <div class="what-is-npm">
+        <h2>What is npm?</h2>
+        <p>Use npm to install, share and distribute code; manage dependencies in your projects; and share &amp; receive feedback with others.</p>
+        <form id="install-npm">
+          <button>Install npm</button>
+        </form>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+  <section class="what-can-you-make">
+    <div class="container light-bg">
+      <div class="make-title">
+        <h2>What can you make with 475,000 building blocks?</h2>
+        <p>The npm registry hosts almost half a million packages of free, reusable code &mdash; the largest software registry in the world.</p>
+      </div>
+      <div class="make-columns">
+        <article class="col col-3">
+          <img src="images/binoculars.svg" alt="Find icon" class="icon">
+          <h4>Find</h4>
+          <p>Libraries like <a>JQuery</a>, <a>Bootstrap</a>, <a>React</a>, and <a>Angular</a>, and components from frameworks such as <a>Ember</a>.</p>
+        </article>
+        <article class="col col-3 col-middle">
+          <img src="images/mountain-flag.svg" alt="" class="icon">
+          <h4>Discover</h4>
+          <p>Packages for mobile, IoT, front end, back end, robotics... everything you need to start building amazing things.</p>
+        </article>
+        <article class="col col-3">
+          <img src="images/backpack.svg" alt="" class="icon">
+          <h4>Build</h4>
+          <p>Assemble packages like building blocks to quickly develop awesome new projects.</p>
+        </article>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
 </body>
 </html>

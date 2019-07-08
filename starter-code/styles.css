@@ -1,0 +1,191 @@
+* {
+  font-family: sans-serif;
+}
+
+h1, h2 {
+  font-weight: 300;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+nav {
+  background-color: #c12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.top-left {
+  float: left;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.header {
+  background-color: rgb(32, 101, 136);
+  background-image: url(images/city-scape.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  position: relative;
+  padding-right: 10px;
+  height: 500px;
+}
+
+.header-search {
+  height: 30px;
+  width: 100%;
+  padding: 5px;
+}
+
+.header-search img {
+  height: 30px;
+  float: left;
+  padding-right: 15px;
+}
+
+.pkg-search {
+  width: auto;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.login-button {
+  background-image: url(images/bear-logo.png);
+  background-size: cover;
+  border: 0px;
+  height: 30px;
+  width: 30px;
+}
+
+.search-login {
+  float: right;
+}
+
+.header-desc {
+  margin: 0 auto;
+  width: 30%;
+  padding-right: 30%;
+  color: white;
+}
+
+button {
+  border: none;
+  padding: 0.5em 1.5em;
+  border-radius: 1em;
+}
+
+.header button {
+  background-color: rgb(240, 146, 51);
+  color: white;
+}
+
+.dark-bg {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(39,53,71);
+  color: white;
+}
+
+.dark-bg button {
+  background-color: rgb(203, 56, 55);
+  color: white;
+}
+
+.dark-bg a {
+  color: aqua;
+}
+
+.orgs-img {
+  float: left;
+  width: 600px;
+  padding-right: 20px;
+}
+
+.orgs-desc {
+  float: left;
+  width: 400px;
+}
+
+.npm-orgs {
+  margin: 0 auto;
+  width: 1040px;
+}
+
+.npm-orgs li {
+  list-style: none;
+  padding: 0.5em 0;
+}
+
+.city-bg-2 {
+  background-color: rgb(49, 68, 88);
+  color: white;
+  background-image: url(images/forklift.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  position: relative;
+  height: 500px;
+}
+
+.what-is-npm {
+  position: absolute;
+  width: 330px;
+  left: 20vw;
+  top: 10vh;
+}
+
+.what-is-npm button {
+  background-color: rgb(49, 68, 88);
+  color: white;
+}
+
+.what-can-you-make {
+  text-align: center;
+  color: rgb(135, 145, 156);
+}
+
+.what-can-you-make h2, h4 {
+  color: rgb(83, 88, 98);
+}
+
+.what-can-you-make a {
+  color: rgb(208, 74, 73);
+  font-weight: 600;
+}
+
+.col {
+  float: left;
+  text-align: center;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
